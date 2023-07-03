@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/iconocavezara"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.134"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="login.json"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_loop="true">
+
+    </com.airbnb.lottie.LottieAnimationView>
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="65dp"
+        android:background="@drawable/text2"
+        android:ems="10"
+        android:layout_marginTop="90dp"
+        android:inputType="textPersonName"
+        android:hint="titulo"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.153"
+        tools:layout_editor_absoluteX="86dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="65dp"
+        android:background="@drawable/text2"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="texto"
+
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btntodos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="todos"
+        android:layout_margin="10dp"
+        tools:layout_editor_absoluteX="16dp">
+
+    </Button>
+
+</LinearLayout>
+
